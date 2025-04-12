@@ -3,27 +3,51 @@
  <html lang="en"> 
 
 <head>    
+   
 
 <meta charset="UTF-8">  
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 
  <title>Delicious Bites Menu</title>
+
+ <link rel="stylesheet" href="style.css">
+ <style>
+  
+   .item{
+       color: brown;
+   }
+   .op{
+      color: red
+   }
+   .er{
+      color: blueviolet;
+   }
+  
+</style>
     
 </head>
 
+
  <body>  
+   <center><nav>
+      <p>menu</p>
+      <p>entrées</p>
+      <p>plats principals</p>
+      <p>desserts</p>
+   </nav>
+</center>
    <center> <img src="logo-design-of-restaurant-menu.jpg" alt="menu" width="200" height="200" ></center>
 
- <center><h1>Delicious Bites Menu</h1></center>
+ <center><h1 class="item"></h1class>Delicious Bites Menu</h1></center>
 
-   <center><h2><i>ENTREE</i></h2> </center> 
+   <center><h2 class="op"><i>ENTREE</i></h2> </center> 
 
   <center>   
 
    <li>          
 
-  <strong>BUFALA E RUCOLA</strong>       
+  <strong class="er">BUFALA E RUCOLA</strong>       
 
      <p>Tomates-cerise, Mozzarella, Huile d'olive(extra vierge), basilic & roquette.</p> 
 
@@ -33,7 +57,7 @@
 
     </center>
 
- <center><h2><i>PLAT PRINCIPAL</i></h2> </center> 
+ <center><h2 class="op"><i>PLAT PRINCIPAL</i></h2> </center> 
  
 
 
@@ -41,14 +65,14 @@
    
    
      <li>      
-      <strong><i>SAUMON GRILLE</i></strong>  
+      <strong class="er"><i>SAUMON GRILLE</i></strong>  
 
        <p>Saumon bio grillé servi avec scarole sautée.</p> 
 
      </li> 
 
         <li>
-           <strong>TAGLIATA</strong>
+           <strong class="er">TAGLIATA</strong>
             <p>Piccata de veau au citron & fleurs de capres</p>
         </li>
     </center>
@@ -60,11 +84,11 @@
 
     
 
- <center><h2><i>DESSERT</i></h2></center> 
+ <center><h2 class="op"><i>DESSERT</i></h2></center> 
 
   <center>  
     <li>    
-       <strong>TIRAMISU</strong>    
+       <strong class="er">TIRAMISU</strong>    
 
        <center><p>Tiramisù classique aux copeaux de chocolat avec crème fouettée.</p></center>
 
@@ -76,7 +100,7 @@
 
   
 
-   <center><p><a href="contact.html">Contact us for reservations</a></p></center>
+   <center><p id="contact"><a href="contact.html">Contact us for reservations</a></p></center>
  
 
 </body>
